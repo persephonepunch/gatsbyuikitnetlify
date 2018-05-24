@@ -9,18 +9,10 @@ const SecondPage = () => (
             
         <h3 class="uk-card-title">Default</h3>
         <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-
-
-
-      </div>
-    </div>
-
-
-
-     <div className="uk-container">
-      <div className="uk-column-1-2@s uk-column-1-3@m uk-column-1-3@l">
-        <p>
+     
+        <div className="uk-container">
+      <div className="uk-column-1-2@s uk-column-1-3@m uk-column-1-3@l ">
+        <p className="uk-margin">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris.
@@ -42,6 +34,23 @@ const SecondPage = () => (
         </p>
       </div>
     </div>
+     
+     
+     
+     
+     
+     
+     
+      </div>
+
+
+
+      </div>
+    </div>
+
+
+
+     
   </div>
 );
 
