@@ -4,7 +4,22 @@ import Link from 'gatsby-link';
 const SecondPage = () => (
   <div className="uk-section">
     <div className="uk-container">
-      <div className="uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l">
+      <div className=" uk-column-1-1@l">
+      <div className="uk-card uk-card-default uk-card-body uk-card-hover">
+            
+        <h3 class="uk-card-title">Default</h3>
+        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+
+
+      </div>
+    </div>
+
+
+
+     <div className="uk-container">
+      <div className="uk-column-1-2@s uk-column-1-3@m uk-column-1-3@l">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

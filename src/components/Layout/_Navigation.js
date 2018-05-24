@@ -34,7 +34,7 @@ export class Navigation extends Component {
 
             <div className="uk-navbar-center">
               <Link className="uk-logo" to="/">
-                Company
+                GeoLocation
               </Link>
             </div>
             <div className="uk-navbar-right">

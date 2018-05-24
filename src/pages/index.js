@@ -1,10 +1,21 @@
 import React from 'react';
+import Link from 'gatsby-link';
+import { Hero, Stats, CardsRow, NewsLetter, Tiles, Comments, Temperature, Globes, Dashboard } from 'Blocks';
 
-import { Hero, Stats, CardsRow, NewsLetter, Tiles, Comments } from 'Blocks';
 
-const IndexPage = () => (
-  <div>
-    <Hero />
+
+const HomePage = () => (
+  <div className="uk-section">
+    <div className="uk-container">
+    
+    <div className="uk-panel uk-light uk-margin-medium" />
+   <Dashboard />
+
+    <div className="uk-panel uk-light uk-margin-medium" />
+   <Temperature />
+    <div className="uk-panel uk-light uk-margin-medium" />
+    <Globes />
+   
     <Stats />
     <div className="uk-panel uk-light uk-margin-medium" />
     <hr className="uk-divider-icon" />
@@ -15,7 +26,19 @@ const IndexPage = () => (
     <Comments />
     <div className="uk-panel uk-light uk-margin-medium" />
     <NewsLetter />
-  </div>
+    <div className="uk-panel uk-light uk-margin-medium" />
+ 
+  
+
+
+
+
+
+      </div>
+    </div>
+
+
+  
 );
 
-export default IndexPage;
+export default HomePage;
