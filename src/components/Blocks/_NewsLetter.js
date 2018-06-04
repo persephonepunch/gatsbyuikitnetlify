@@ -13,6 +13,7 @@ export class NewsLetter extends Component {
               type="text"
               placeholder="Email"
             />
+       <button className="uk-primary">SUBMIT</button>
           </form>
         </div>
       </div>
