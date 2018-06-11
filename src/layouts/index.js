@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import Img from "gatsby-image";
 import styled from 'react-emotion';
 
 import { Footer, Navigation, OffCanvas } from 'Layout';
+
 
 import './styles.scss';
 
@@ -46,6 +48,36 @@ const Wrapper = styled.div`
   flex-direction: column;
   animation: appear 0.5s forwards;
 
+
+
+
+  @font-face {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Apercu'),
+      local('Apercu-Regular'),
+      url(http://yslprojects.com/tempestcdn/fonts/apercu-regular.woff)
+        format('woff2');
+    unicode-range: U+0100-024f, U+1-1eff,
+      U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
+      U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'barometer';
+    font-style: normal;
+    font-weight: 400;
+    src: local('barometer'),
+      local('Apercu-Regular'),
+      url(http://yslprojects.com/tempestcdn/fonts/barometer1.woff)
+        format('woff2');
+    unicode-range: U+0100-024f, U+1-1eff,
+      U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
+      U+A720-A7FF;
+  }
+
+
   @keyframes appear {
     from {
       opacity: 0;
@@ -55,6 +87,12 @@ const Wrapper = styled.div`
     }
   }
 `;
+
+
 const Main = styled.div`
   flex: 1;
+  font-family: 'Apercu';
+  h1, h2, h3, h4, h5 font-family: 'Apercu';
 `;
+
+

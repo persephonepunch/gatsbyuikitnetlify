@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Img from "gatsby-image";
 
 export class Dashboard extends Component {
   render() {
@@ -12,7 +13,8 @@ export class Dashboard extends Component {
           >
             <div>
               <div className="uk-tile uk-tile-primary ">
-                <h4 className="uk-h4">Placeholder</h4>
+                <h4>Placeholder</h4>
+                <h1 className="temperature">77°</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   ornare massa felis, sit amet placerat nisi cursus a. Cras diam
@@ -21,14 +23,30 @@ export class Dashboard extends Component {
                 </p>
               </div>
             </div>
+
+
+ <div className="  uk-tile uk-tile-default uk-padding-large">
             
-            <div>
-              <div className="uk-tile uk-tile-default">
-                <h4 className="uk-h4"> </h4>
-                <p>
-                
-                </p>
-              </div>
+
+
+
+
+
+ <p > <img
+                    title="Header image"
+                    alt="Greek food laid out on table"
+                    src="http://tempestbeta.com/revise/wp-content/uploads/1489968726894-2.gif"
+                  /></p>
+            
+            
+            
+            
+          
+              
+
+
+
+           
             </div>
             <div>
             

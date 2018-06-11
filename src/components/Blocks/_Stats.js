@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export class Stats extends Component {
   render() {
     return (
-      <div className="uk-section uk-section-default">
+      <div className=" uk-section uk-section-default">
         <div className="uk-container uk-container-small">
-          <h3 className="uk-heading-line uk-text-center">
+          <h3 className="uk-heading-line uk-text-center ">
             <span>Quickly look at these numbers!</span>
           </h3>
           <div className="uk-panel uk-light uk-margin-medium" />

@@ -5,6 +5,9 @@ module.exports = {
   pathPrefix: "/gatsbyuikit.git",
   plugins: [
     'gatsby-plugin-react-helmet', 
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-typography', 
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 };

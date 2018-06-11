@@ -18,7 +18,7 @@ export class CardsRow extends Component {
             <div>
               <div className="uk-card uk-card-default uk-card-body uk-card-hover">
                 <span data-uk-icon="icon: heart; ratio: 1.5" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <h1 className="temperature">77°</h1>
               </div>
             </div>
             <div>
