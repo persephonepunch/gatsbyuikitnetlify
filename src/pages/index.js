@@ -7,6 +7,10 @@ import { Hero, Stats, CardsRow, NewsLetter, Tiles, Comments, Temperature, Globes
 const HomePage = () => (
   <div className="uk-section">
     <div className="uk-container">
+
+      <div className="uk-panel uk-light uk-margin-medium" />
+   <Hero />
+
     
     <div className="uk-panel uk-light uk-margin-medium" />
    <Dashboard />

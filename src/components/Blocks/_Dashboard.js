@@ -22,37 +22,11 @@ export class Dashboard extends Component {
                   Curabitur ut iaculis dolor.
                 </p>
               </div>
+
             </div>
-
-
- <div className="  uk-tile uk-tile-default uk-padding-large">
-            
-
-
-
-
-
- <p > <img
-                    title="Header image"
-                    alt="Greek food laid out on table"
-                    src="http://tempestbeta.com/revise/wp-content/uploads/1489968726894-2.gif"
-                  /></p>
-            
-            
-            
-            
-          
-              
-
-
-
-           
+              <div className="  uk-tile uk-tile-default uk-padding-large">
             </div>
-            <div>
-            
-
-
-             </div>   
+ 
           </div>
           </div>
          
