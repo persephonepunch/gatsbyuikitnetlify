@@ -7,6 +7,8 @@ import Tiles from './_Tiles';
 import Globes from './_Globes';
 import Temperature from './_Temperature';
 import Dashboard from './_Dashboard';
+import CardsMap from './_CardsMap';
 
 
-export { CardsRow, Comments, Hero, NewsLetter, Stats, Tiles, Globes, Temperature, Dashboard };
+
+export { CardsRow, Comments, CardsMap, Hero, NewsLetter, Stats, Tiles, Globes, Temperature, Dashboard };

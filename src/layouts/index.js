@@ -27,6 +27,9 @@ class TemplateWrapper extends Component {
           <Wrapper>
             <Navigation />
          
+           
+
+         
             <Main>{this.props.children()}</Main>
             <Footer />
             <OffCanvas />
@@ -58,7 +61,7 @@ const Wrapper = styled.div`
     font-weight: 400;
     src: local('Apercu'),
       local('Apercu-Regular'),
-      url(./fonts/apercu-regular.woff)
+      url(../../fonts/apercu-regular.woff)
         format('woff2');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
@@ -71,7 +74,7 @@ const Wrapper = styled.div`
     font-weight: 400;
     src: local('barometer'),
       local('Apercu-Regular'),
-      url(./fonts/barometer1.woff)
+      url(../../fonts/barometer1.woff)
         format('woff2');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
@@ -84,7 +87,7 @@ const Wrapper = styled.div`
     font-weight: 400;
     src: local('Apercu'),
       local('Apercu-Regular'),
-      url(./fonts/apercu-regular.ttf)
+      url(../../fonts/apercu-regular.ttf)
         format('ttf');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
@@ -96,8 +99,8 @@ const Wrapper = styled.div`
     font-style: normal;
     font-weight: 400;
     src: local('barometer'),
-      local('Apercu-Regular'),
-      url(./fonts/barometer1.ttf)
+      local('barometer'),
+      url(../../fonts/barometer1.ttf)
         format('ttf');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
@@ -110,7 +113,7 @@ const Wrapper = styled.div`
     font-weight: 400;
     src: local('Apercu'),
       local('Apercu-Regular'),
-      url(./fonts/apercu-regular.svg)
+      url(../../fonts/apercu-regular.svg)
         format('svg');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,
@@ -122,8 +125,8 @@ const Wrapper = styled.div`
     font-style: normal;
     font-weight: 400;
     src: local('barometer'),
-      local('Apercu-Regular'),
-      url(./fonts/barometer1.svg)
+      local('barometer),
+      url(../../fonts/barometer1.svg)
         format('svg');
     unicode-range: U+0100-024f, U+1-1eff,
       U+20a0-20ab, U+20ad-20cf, U+2c60-2c7f,

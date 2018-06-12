@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { Hero, Stats, CardsRow, NewsLetter, Tiles, Comments, Temperature, Globes, Dashboard } from 'Blocks';
+import { Hero, Stats, CardsRow, CardsMap, NewsLetter, Tiles, Comments, Temperature, Globes, Dashboard } from 'Blocks';
 
 
 
@@ -15,14 +15,18 @@ const HomePage = () => (
     <div className="uk-panel uk-light uk-margin-medium" />
    <Dashboard />
 
+    
+
+
     <div className="uk-panel uk-light uk-margin-medium" />
    <Temperature />
     <div className="uk-panel uk-light uk-margin-medium" />
     <Globes />
+    <CardsMap />
    
     <Stats />
     <div className="uk-panel uk-light uk-margin-medium" />
-    <hr className="uk-divider-icon" />
+    <hr className="uk-divider" />
     <Tiles />
     <div className="uk-panel uk-light uk-margin-medium" />
     <CardsRow />
