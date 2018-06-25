@@ -18,7 +18,7 @@ Jamstack and Headless CMS Design Standards
 
 ## Installation
 
-1. `git clone https://github.com/dimitrisnl/gatsby-uikit-boilerplate .`
+1. `git clone https://github.com/persephonepunch/gatsbyuikitnetlify.git`
 2. `cd gatsbyuikitnetlify`
 3. `yarn install`
 4. Set up account [Netlify](http://www.mamp.info/en/downloads/index.html) 
