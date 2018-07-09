@@ -4,11 +4,10 @@ import Hero from './_Hero';
 import NewsLetter from './_NewsLetter';
 import Stats from './_Stats';
 import Tiles from './_Tiles';
-import Globes from './_Globes';
 import Temperature from './_Temperature';
 import Dashboard from './_Dashboard';
-import CardsMap from './_CardsMap';
+import Form from './_Form';
 
 
 
-export { CardsRow, Comments, CardsMap, Hero, NewsLetter, Stats, Tiles, Globes, Temperature, Dashboard };
+export { CardsRow, Comments, Form, Hero, NewsLetter, Stats, Tiles, Temperature, Dashboard };
